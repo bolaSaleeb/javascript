@@ -1,0 +1,23 @@
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+   <NS1:Header>
+      <NS2:MessageHeader xmlns:NS2="http://esb.ebe.eg/framework.message.header.v0.1">
+         <GUID>a2b35f7c-7c06-11ef-9959-0a8002a50000</GUID>
+         <RequestId>90fb7718-9476-4edd-8cc4-e15697e81529</RequestId>
+         <ChannelId>RetIntBank</ChannelId>
+         <SourceId>Sumerge</SourceId>
+         <LanguageCode>EN</LanguageCode>
+         <UserId>Sumerge</UserId>
+         <SourceEnvironment>DEV</SourceEnvironment>
+         <ClientDateTime>2024-09-25T13:24:18.343Z</ClientDateTime>
+      </NS2:MessageHeader>
+   </NS1:Header>
+   <NS1:Body>
+      <NS3:CreateModifyCIFResponse xmlns:NS3="http://esb.ebe.eg/CIF/CreateModifyCIF">
+         <NS4:ServiceResponse xmlns:NS4="http://esb.ebe.eg/framework.message.header.v0.1">
+            <Status>500-009001E</Status>
+            <StatusDescription>Unexpected System Error</StatusDescription>
+            <ServerDateTime>2024-09-26T15:55:41.318145+03:00</ServerDateTime>
+         </NS4:ServiceResponse>
+      </NS3:CreateModifyCIFResponse>
+   </NS1:Body>
+</NS1:Envelope>

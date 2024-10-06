@@ -1,0 +1,6 @@
+{
+    "name":"bola",
+    "age": 25,
+    "isEmployed": true,
+    "hobbies": ["workout","jump rope", "muscle ups"]
+}
